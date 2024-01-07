@@ -1,0 +1,490 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    min-height: 100%;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, rgb(155, 155, 160), rgb(241, 213, 213), rgb(220, 220, 237));
+}
+
+.container {
+
+    min-height:100%;
+    width:100%;
+}
+
+#header {
+
+    font-size: 75px;
+    margin:35px 40px;
+    color:#3d3c3c;
+    opacity:0.3;
+}
+
+.sidebar {
+
+    width:20vw;
+    height: 70vh;
+    margin-left: 40px;
+}
+
+.sidebarHeading {
+    display: flex;
+    gap:0.75em;
+    margin-bottom: 2.5vh;
+    font-size: 14px;
+    margin-left: 3px;
+}
+
+.items {
+
+    display: flex;
+    gap: 0.75em;
+    line-height: 45px;
+    font-size: 14px;
+    padding: 3px;
+}
+
+.bi-messenger {
+
+    color:rgb(137, 194, 234);
+    opacity:0.4;
+}
+
+.bi-twitter {
+
+    color:rgb(137, 194, 234);
+    opacity:0.25;
+}
+
+#messenger1,#messenger2,#twitter {
+
+    opacity:0.3;
+}
+
+#subtext1 {
+    opacity:0.45
+}
+
+#subtext2 {
+    opacity:0.35
+}
+
+#subtext3 {
+     opacity:0.3;
+}
+
+#subtext4 {
+    opacity:0.25;
+}
+
+#text1{
+    font-weight: 700;
+}
+
+#text2,#text3{
+    opacity:0.47;
+}
+#text4{
+    opacity:0.4;
+}
+
+#item1>.bi-envelope-fill {
+    color:#222;
+    opacity:0.9;
+}
+
+#item2>.bi-envelope-fill{
+    opacity:0.4;
+}
+
+#item3>.bi-envelope-fill{
+    opacity:0.3;
+}
+#item4>.bi-envelope-fill{
+    opacity:0.2;
+}
+
+#item1 {
+
+    background-color: rgb(238, 235, 235);
+    border-radius:12px;
+    height: 45px;
+    width: 250px;
+    opacity:0.4;
+    display: flex;
+    align-items: center;
+}
+
+.contents {
+
+    display: flex;
+}
+
+.cards {
+
+    height:98vh;
+    min-width:180vw;
+    margin-top: -60px;
+    display: flex;
+}
+
+
+.card1 {
+
+    width:45vw;
+    height: 85vh;
+    margin-left: 5.7em;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card1>div>span{
+
+    height:6vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:45vw;
+    display: flex;
+    gap:1.5em;
+    padding:3px;
+    background-color: rgb(206, 202, 202);
+}
+
+.card1>div>#envicon>p{
+
+   padding: 3px;
+}
+
+#envicon>i {
+
+    margin-left: 2em;
+    padding: 3px;
+}
+
+#envicon>:nth-child(3){
+
+    margin-left: 12.5em;
+    padding: 3px;
+    color:rgb(69, 69, 69);
+    opacity: 0.4;
+}
+
+.card1Contents {
+
+    padding:15px;
+    margin:12px 24px;
+}
+
+.card1Contents>:nth-child(1) {
+
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 30em;
+    opacity:0.3
+}
+
+.card1Contents>:nth-child(2) {
+
+    font-weight: 500;
+    font-size: 23px;
+}
+
+.card1Contents>:nth-child(3) {
+
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 2em;
+}
+
+.card1Contents>:nth-child(4) {
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 5em;
+}
+
+.card1Contents>:nth-child(5) {
+
+    font-weight: 500;
+    font-size: 15px;   
+    line-height: 1.5em;
+}
+
+.card1Contents>:nth-child(6) {
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 5em;
+}
+
+hr {
+
+    opacity: 0.2;
+}
+
+.btn {
+
+    margin:5px 4px;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+    border-radius: 12px;
+    border:none;
+}
+
+.card1Contents footer {
+
+    margin-top: 2em;
+    display: flex;
+    gap: 0.7em;
+    opacity:0.4;
+}
+
+.card2 {
+
+    width:50vw;
+    height: 95vh;
+    margin-left: 4em;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card2header {
+
+    height:6vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:50vw;
+    display: flex;
+    gap:1.5em;
+    padding:3px;
+    background-color: rgb(206, 202, 202);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card2header p {
+
+    margin-left: 2.5em;
+    font-weight: 700;
+}
+
+.bi-mic-fill{
+
+    margin-right: 2em;
+    opacity:0.3;
+}
+
+.card2Contents h1 {
+
+    margin:1em 1.5em;
+}
+
+.card2Contents p {
+
+    margin:1em 3em;
+    line-height: 0.6em;
+}
+
+.timeContent {
+
+    height: 38vh;
+    width: 44vw;
+    margin:2em 2.5em;
+    border-radius:9px;
+    background-color: rgb(210, 209, 209);
+}
+
+.dottedline {
+
+    border-left: 2px dotted #000;
+    height: 115px;
+    font-weight: 700;
+    margin-left: 6em;
+    margin-top: -13em;
+}
+
+.timeContent .time1 {
+
+   margin:1.3em 1.3em;
+   font-size: 15px;
+   font-weight: 600;
+}
+
+.timeContent .remainingtime{
+
+    display: flex;
+    flex-direction: column;
+    gap:1.7em;
+    margin-left: -0.1em;
+    font-weight: 12px;
+}
+
+.remainingtime p {
+
+    font-size: 14px;
+}
+
+.timeContent #p1 {
+
+    margin-left: 7em;
+    margin-top:-2em;
+}
+
+.timeContent #p2 {
+
+    margin-left: 20em;
+    margin-top:-1.7em;
+    opacity:0.4
+}
+
+.timeContent #p3 {
+
+    margin-left: 7em;
+    margin-top:3.5em;
+}
+
+.timeContent #p4 {
+
+    margin-left: 25em;
+    margin-top:-1.7em;
+    opacity:0.4
+}
+
+.card2Btn {
+
+    margin:5px 4px;
+    height: 35px;
+    width: 100px;
+    cursor: pointer;
+    border-radius: 12px;
+    border:none;
+    margin-left: 3em;
+}
+
+#fadeButton {
+
+    opacity:0.3
+}
+
+.card2Contents footer {
+
+    margin-top: 2em;
+    display: flex;
+    gap: 0.7em;
+    opacity:0.4;
+}
+
+.card2Contents footer>.bi-command {
+
+    margin-left:2em;
+    margin-top: -0.7em;
+}
+
+.card2Contents footer>p {
+
+   margin-top:-0.4em;
+   transform: translateX(-3.5vw);
+}
+
+.card3 {
+
+    width:45vw;
+    height: 85vh;
+    margin-left: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.card3>div>span{
+
+    height:6vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width:45 vw;
+    display: flex;
+    gap:1.5em;
+    padding:3px;
+    background-color: rgb(206, 202, 202);
+}
+
+.card3>div>span>.bi-mic-fill {
+
+    transform: translateX(4.5vw);
+}
+
+.image {
+
+    width:44.7vw;
+    height:40vh;
+    background-image: url("https://dontai.com/wp/wp-content/uploads/2018/04/glendale-la-cali-google-2018-4-17.png");
+    background-repeat: no-repeat;
+}
+
+.card3Contents h1 {
+
+    margin:0.7em 1.5em;
+}
+
+.card3Contents p {
+
+    margin-left: 3em;
+    margin-top: -1.1em;
+}
+
+.btn31,.btn32 {
+
+    margin-top:0.7em;
+    height: 35px;
+    width: 120px;
+    cursor: pointer;
+    border-radius: 12px;
+    border:none;
+    margin-left: 3em;
+}
+
+.btn33 {
+
+    margin-top:0.7em;
+    height: 35px;
+    width: 170px;
+    cursor: pointer;
+    border-radius: 12px;
+    border:none;
+    margin-left: 3em;
+}
+
+.card3Contents>:nth-child(4){
+
+    margin:1em 3em;
+}
+
+.card3Contents footer {
+
+    margin-top: 2em;
+    display: flex;
+    gap: 0.7em;
+    opacity:0.4;
+}
+
+.card3Contents footer>.bi-command {
+
+    margin-left:2em;
+    margin-top: -0.7em;
+}
+
+.card3Contents footer>p {
+
+    margin-top:-0.6em;
+    transform: translateX(-3.5vw);
+ }
+ 
+
